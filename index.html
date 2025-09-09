@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemar Alegre - Personal Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Box-Icon -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Noto Sans JP Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">Gemar</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        <div class="nav-actions">        
+            <div class="theme-toggle" id="themeToggle" role="switch" aria-label="Toggle dark mode" tabindex="0">
+                <div class="toggle-slider">
+                    <svg class="icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <button class="mobile-menu-btn" aria-label="Toggle navigation">☰</button>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                  <span id="typewriter"></span>
+                </h1>
+                <p class="hero-subtitle">I'm an enthusiastic <span class="highlight">Customer Support & Healthcare Information Specialist</span> specializing in the MERN stack. I am a tech-savvy and flexible professional. I specialize in handling sensitive data with accuracy and confidentiality, providing excellent client support, and adapting quickly to new tools and environments.</p>
+            </div>            
+            
+            <div class="hero-image">
+                <img src="images/GemarLight.png" alt="Gemar Alegre">
+            </div>
+            
+            <div class="btn-group">
+                <a href="#contact" class="btn btn-contact">Contact Me</a>
+                <a href="files/BPO_Alegre_Gemar_09128939488_gemar.alegreofficial@gmail.pdf" class="btn btn-download" target="_blank">Download CV</a>
+            </div>            
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/Gemar2.jpg" alt="myImage">
+                </div>
+                <div class="about-text">
+                    <div class="trail"></div>
+                    <div class="about-text-content">
+                        <h3>Passionate Customer Support & Healthcare Information Specialist</h3>
+                        <p>
+                            I hold a degree in Information Technology, but began my professional journey in the BPO industry after graduation due to financial crisis.
+                        </p>
+                        <p>
+                          I am a passionate Customer Support & Healthcare Information Specialist with over three years of experience in BPO and healthcare services. Tech-savvy and flexible, I excel at adapting to new tools and processes while ensuring accuracy, confidentiality, and compliance with HIPAA standards. With strong communication skills and a detail-oriented mindset, I deliver excellent support and uphold high service and professional standards.
+                        </p>
+                        <p>
+                            At present, I'm actively looking for a company that will give me the opportunity to contribute, grow, and showcase what I can do as Customer Support & Healthcare Information Specialist.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Core Skills</h3>
+                    <!-- <p>HTML5, CSS, JavaScript, React, Bootstrap4, Tailwind, Responsive Design, Vercel</p> -->
+                    <div class="skills-tags">
+                      <span class="skill-tag">Customer Support (Voice & Chat)</span>
+                      <span class="skill-tag">Healthcare Information Management (HIPAA Compliance)</span>
+                      <span class="skill-tag">Data Entry & Transaction Processing</span>
+                      <span class="skill-tag">Records Management & Documentation</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Professional Skills</h3>
+                    <div class="skills-tags">
+                      <span class="skill-tag">Communication (Verbal & Written)</span>
+                      <span class="skill-tag">Problem-Solving & Critical Thinking</span>
+                      <span class="skill-tag">Adaptability & Flexibility</span>
+                      <span class="skill-tag">Teamwork & Collaboration</span>
+                      <span class="skill-tag">Time Management</span>
+                      <span class="skill-tag">Professionalism & Work Ethic</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Technical & Digital Skills</h3>
+                    <div class="skills-tags">
+                      <span class="skill-tag">Tech-Savvy with Digital Tools</span>
+                      <span class="skill-tag">Microsoft Office Suite</span>
+                      <span class="skill-tag">Google Workspace</span>
+                      <span class="skill-tag">CRM(Zoho)</span>
+                      <span class="skill-tag">Data Privacy & Security Awareness</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+     <section class="section certifications" id="certifications">
+      <div class="container">
+        <h2 class="section-title">Certificate of Employments</h2>
+        <div class="cert-card-grid">
+          <div class="cert-card">
+            <div class="cert-image">
+              <h1><a href="https://www.facebook.com/ConcentrixPH" target="_blank">Concentrix</a></h1>
+            </div>
+            <div class="cert-body">
+              <h2><a href="files/COE 1st.pdf" target="_blank">Advisor I Transaction processing</a></h2>
+              <h2><a href="files/COE 1st.pdf" target="_blank">Advisor I Customer Service (Chat)</a></h2>
+              <h2><a href="files/COE 3rd.pdf" target="_blank">Advisor I Customer Service (Voice)</a></h2>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.9515579519925!2d121.05424047574205!3d14.658690575650565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b76b2c4bcf93%3A0x23818212ac6d9262!2sConcentrix%20UP%20Ayala%20Technohub%20Recruitment%20Site!5e0!3m2!1sen!2sph!4v1757389864905!5m2!1sen!2sph"></iframe>
+              <p>Click text to view</p>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-image">
+              <h1><a href="https://www.facebook.com/iFiveCareers" target="_blank">IFive Global</a></h1>
+            </div>
+            <div class="cert-body">
+              <h2><a href="files/COE IFive.pdf" target="_blank">Release of Information Specialist</a></h2>
+              <div class="iFive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.145815654212!2d121.07651048432572!3d14.590765740964326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7e9395665d3%3A0xc602da441b61e506!2siFive%20Inc.!5e0!3m2!1sen!2sph!4v1757388588486!5m2!1sen!2sph"></iframe>  
+              </div>            
+              <p>Click text to view</p>
+            </div>
+          </div>
+          </div>                              
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Whether you need a website, web application, or just want to chat about technology, feel free to reach out!</p>
+                    <p>📧 gemar.alegreofficial@gmail.com</p>
+                    <p>📱 +63 (912) 893-9488</p>
+                    <p>📍 Commonwealth, Quezon</p>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" autocomplete="on" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" autocomplete="on" name="email" placeholder="your.email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" autocomplete="on" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your concern..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+        <!-- Success Modal -->
+        <div id="successModal" class="modal">
+          <div class="modal-content success-box">
+            <span id="closeSuccessModal" class="modal-close">&times;</span>
+            <div class="success-icon">✅</div>
+            <h2 class="success-title">Message Sent</h2>
+            <p class="success-text">Thank you! I’ll get back to you soon.</p>
+          </div>
+        </div>
+
+        <!-- Fullscreen Image Modal -->
+        <div id="imageModal" class="image-modal hidden">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage" alt="certImage">
+        </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/gemar-alegre-150932275/" target="_blank"><i class='bx  bxl-linkedin-square'></i></a>
+                <a href="https://github.com/Gemar029" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&to=gemar.alegreofficial@gmail.com,gemar.alegre29@gmail.com&su=Contacting%20Gemar%20Alegre&body=Hi%2C%0A%0AThank%20you%20for%20your%20interest.%20You%20can%20contact%20me%20through%20the%20following%20details%3A%0A%0AEmail%20address%3A%20gemar.alegreofficial%40gmail.com%20or%20gemar.alegre29%40gmail.com%0AMobile%20number%3A%2009128939488%20or%2009763790605%0ALinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgemar-alegre-150932275%2F" target="_blank"" target="_blank"><i class="bx bxl-gmail"></i></a>
+            </div>
+            <p>&copy; 2025 Gemar Alegre. All rights reserved.</p>
+            <p>This website was developed by me using <span>HTML,</span> <span>CSS,</span> and <span>JavaScript</span> in <span>Visual Studio Code</span>, and deployed through <span>Vercel</span> with the used of <span>EmailJs</span> for email automation.</p>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    <script>emailjs.init('l60NZFNgB-8vDPHKn');</script>
+</body>
+</html>
